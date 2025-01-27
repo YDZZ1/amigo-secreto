@@ -13,7 +13,7 @@ Esta aplicación permite realizar un sorteo de "Amigo Secreto" de manera sencill
 
 - **HTML**: Estructura de la página.
 - **CSS**: Diseño visual y estilos.
-- **JavaScript**: Lógica de la aplicación (vanilla JavaScript, sin bibliotecas externas).
+- **JavaScript**: Lógica de la aplicación.
 
 ## Cosas para modificar o agregar
 - **Filtros para evitar la colocación de números en la lista**
