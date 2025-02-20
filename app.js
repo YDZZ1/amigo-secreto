@@ -7,7 +7,7 @@ const listaNombres = document.getElementById("listaAmigos");
 const resultadoSorteo = document.getElementById("resultado");
 
 // Lista para almacenar los nombres
-let amigos = []
+let amigos = [];
 
 // Función para agregar un nombre a la lista
 function agregarAmigo() {
