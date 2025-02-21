@@ -52,5 +52,5 @@ botonNuevo.addEventListener("click", () => {
     amigos = [];
     listaNombres.innerHTML = "";
     resultadoSorteo.innerHTML = "";
-    alert("Se ha iniciado un nuevo sorteo. ¡Añade nuevos nombres!");
+    alert("Se ha iniciado un nuevo sorteo. ¡Añade nuevos nombres!")
 });
