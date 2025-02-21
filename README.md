@@ -17,5 +17,5 @@ Esta aplicación permite realizar un sorteo de "Amigo Secreto" de manera sencill
 
 ## Cosas para modificar o agregar
 - **Filtros para evitar la colocación de números en la lista**
-- **Un botón para nuevo sorteo**
+- **Un botón para nuevo sorteo(Completado)**
 - **etc.**
