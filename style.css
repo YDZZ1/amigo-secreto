@@ -162,10 +162,25 @@ ul {
     justify-content: center;
 }
 
+.button-draw2 {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding: 10px 40px;
+        color: var(--color-white);
+        background-color: var(--color-button);
+        font-size: 16px;
+        justify-content: center;
+}
+
 .button-draw img {
     margin-right: 40px;
 }
 
 .button-draw:hover {
+    background-color: var(--color-button-hover);
+}
+
+.button-draw2:hover {
     background-color: var(--color-button-hover);
 }

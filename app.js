@@ -5,6 +5,7 @@ const botonAñadir = document.querySelector(".button-add");
 const botonSorteo = document.querySelector(".button-draw");
 const listaNombres = document.getElementById("listaAmigos");
 const resultadoSorteo = document.getElementById("resultado");
+const botonNuevo = document.querySelector(".button-draw2")
 
 // Lista para almacenar los nombres
 let amigos = [];
@@ -44,4 +45,12 @@ botonSorteo.addEventListener("click", () => {
 
     // Mostrar el resultado en la página
     resultadoSorteo.innerHTML = `<li>El amigo secreto es: <strong>${amigoSorteado}</strong></li>`;
+});
+
+//Función para limpiar la lista(nuevo sorteo)
+botonNuevo.addEventListener("click", () => {
+    amigos = [];
+    listaNombres.innerHTML = "";
+    resultadoSorteo.innerHTML = "";
+    alert("Se ha iniciado un nuevo sorteo. ¡Añade nuevos nombres!");
 });
