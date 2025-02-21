@@ -88,8 +88,8 @@ body {
 }
 
 .button-container {
-    width: 300px;
-    justify-content: center;
+    display: flex;
+    gap: 100px;
 }
 
 /* Estilos de entrada de texto */
@@ -128,10 +128,17 @@ button {
 /* Listas */
 ul {
     list-style-type: none;
-    color: var(--color-text);
     font-family: "Inter", sans-serif;
     font-size: 18px;
     margin: 20px 0;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 13px;  
+}
+
+.name-list{
+    color: #011F26;
+    text-align: center;
 }
 
 .result-list {
@@ -140,6 +147,7 @@ ul {
     font-size: 22px;
     font-weight: bold;
     text-align: center;
+    display: flex;
 }
 
 /* Botón de sortear título */
@@ -151,6 +159,7 @@ ul {
     color: var(--color-white);
     background-color: var(--color-button);
     font-size: 16px;
+    justify-content: center;
 }
 
 .button-draw img {
